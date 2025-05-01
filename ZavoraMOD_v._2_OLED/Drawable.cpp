@@ -2,8 +2,8 @@
 #include "Settings.h"
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #include "vape.h"
-#include "images.h"
-
+// #include "images.h"
+#include "images_improved.h"
 
 void Drawable::menuDraw(int arr[], char* strs[] , byte point, bool edit) {
   display.clearDisplay();
